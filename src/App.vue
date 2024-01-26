@@ -1,8 +1,8 @@
 <template>
-	<div>
-		<HeaderComponent />
-		<router-view></router-view>
-		<FooterComponent />
+	<div class="center-center">
+			<HeaderComponent />
+			<router-view></router-view>
+			<FooterComponent />
 	</div>
 </template>
 
@@ -27,7 +27,7 @@ export default {
 html
 	font-size: 62.5%
 
-body
+.center-center
 	margin: 0 auto
 	padding: 0 36rem
 	max-width: 192rem

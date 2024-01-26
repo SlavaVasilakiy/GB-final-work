@@ -239,7 +239,7 @@ export default {
 	},
 	methods: {
 		redirectToProjectPage() {
-			``;
+			`/project`;
 		},
 	},
 	computed: {},
