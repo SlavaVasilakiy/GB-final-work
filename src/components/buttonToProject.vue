@@ -1,5 +1,5 @@
 <template>
-	<router-link to="project"
+	<router-link to="project" class="buttonToProject"
 		><svg
 			width="70"
 			height="70"
@@ -29,4 +29,11 @@ export default {
 };
 </script>
 
-<style scoped lang="sass"></style>
+<style scoped lang="sass">
+.buttonToProject
+	cursor: pointer
+	transition: all .3s
+.buttonToProject:hover
+	filter: contrast(70%) drop-shadow(3px 4px 6px rgba(0, 0, 0, 0.4))
+	transition: all .3s
+</style>

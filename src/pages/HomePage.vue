@@ -10,29 +10,26 @@
 						There are many variations of the passages of lorem Ipsum
 						fromavailable, majority.
 					</p>
-
-					<button
-						@click="redirectToProjectPage()"
-						class="topContent__button"
-						type="button"
-					>
-						<span>Get Started</span
-						><svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="18"
-							height="17"
-							viewBox="0 0 18 17"
-							fill="none"
-						>
-							<path
-								d="M1 8.43542L14.7232 8.29857M9.61818 1.91138L16.1412 8.43436L9.48677 15.0887"
-								stroke="#CDA274"
-								stroke-width="2"
-								stroke-linecap="square"
-								stroke-linejoin="round"
-							/>
-						</svg>
-					</button>
+					<router-link to="project">
+						<button class="topContent__button" type="button">
+							<span>Get Started</span
+							><svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="18"
+								height="17"
+								viewBox="0 0 18 17"
+								fill="none"
+							>
+								<path
+									d="M1 8.43542L14.7232 8.29857M9.61818 1.91138L16.1412 8.43436L9.48677 15.0887"
+									stroke="#CDA274"
+									stroke-width="2"
+									stroke-linecap="square"
+									stroke-linejoin="round"
+								/>
+							</svg>
+						</button>
+					</router-link>
 				</div>
 			</section>
 			<section class="midContent">
@@ -242,7 +239,7 @@ export default {
 	},
 	methods: {
 		redirectToProjectPage() {
-			window.location.href = '/project';
+			``;
 		},
 	},
 	computed: {},
@@ -327,6 +324,13 @@ export default {
 		background: #292F36
 		box-shadow: 0rem 1rem 2rem 0rem rgba(192, 192, 192, 0.35)
 		cursor: pointer
+		transition: all .3s
+
+
+	&__button:hover
+		filter: contrast(90%) drop-shadow(3px 4px 9px rgba(0, 0, 0, 0.6))
+		transform: scale(1.05)
+		transition: all .3s
 
 	&__button span
 		color: #FFF
