@@ -1,4 +1,4 @@
-# Vue project available at https://slava-vue-project.netlify.app/
+# Vue project available at https://slava-vs-vue.onrender.com/
 
 ### Compiles and hot-reloads for development
 
