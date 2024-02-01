@@ -77,7 +77,7 @@ const getters = {
 		return state.selectedCategory
 			? state.projects.filter(
 					project => project.categoryTag === state.selectedCategory
-			  )
+			)
 			: state.projects;
 	},
 	selectedCategory: state => state.selectedCategory,

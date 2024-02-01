@@ -88,7 +88,7 @@ export default {
 
 <style lang="sass" scoped>
 .banner
-	background: url(../assets/img/projectPage/top_banner.jpg), lightgray 50% / cover no-repeat
+	background: url(../assets/img/projectpage/top_banner.jpg), lightgray 50% / cover no-repeat
 	height: 35rem
 	background-size: 192rem
 	margin: 0 -36rem
